@@ -1,0 +1,119 @@
+
+body{
+    margin: 0px;
+}
+header{
+    border: 2px transparent groove;
+    background-image: url(../imagens/topo.jpg);
+    background-size: cover;
+    background-position: left bottom;
+    height: 600px;
+    margin: auto;
+    width: 100%;
+}
+
+header p{
+    box-sizing: border-box;
+    background-color: rgba(25, 51, 64, 0.7);
+    margin-top: 0px;
+    height: 42px;
+    padding-left: 15%;
+}
+
+header nav{
+    color: white;
+    background-color: rgba(30, 62, 77, 0.7);
+    width:35%;
+    margin-left: 65%;
+    margin-top: -58px;
+    height: 42px;
+    box-sizing: border-box;
+}
+
+li{
+    display: inline-block;
+    font-size: 105x;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    margin-top: 5px;
+    
+}
+
+li:hover{
+    background-color:rgba(70, 146, 181, 0.7);
+}
+
+.Principal1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Principal1 h1{
+    font-size:30px;
+    
+}
+
+.Principal1 p{
+    color: #8b9190;
+    line-height: 25px;
+    width: 75%;
+    margin: auto;
+    
+}
+
+.Bimagem{
+    line-height: 0px;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.Principal2{
+    margin-top: 100px;
+    border: 2px transparent groove;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-size: cover;
+    height: 600px;
+    color: white;
+    text-align: left;
+}
+
+.Principal2 h1{
+    font-size: 45px;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.Principal2 p{
+    width: 42%;
+    line-height: 22px;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-left: 40px;
+}
+
+#Fone{
+    font-size: 30px;
+    text-align: center;
+    color: #0f3d43;
+    width: 50%;
+    margin: auto;
+}
+
+#Mapa{
+    width: 100%;
+    height: 500px;
+}
+
+footer{
+    margin-top: 40px;
+    text-align: center;
+    color: #1b76a7;
+    font-size:  15px;
+    letter-spacing: 5px;
+    background-color: black;
+    padding: 5px;
+}
